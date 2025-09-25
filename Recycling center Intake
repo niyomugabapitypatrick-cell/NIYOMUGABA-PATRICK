@@ -1,0 +1,17 @@
+number_1= input("enter number 1:")
+number_2= input("enter number 2:")
+number_3= input("enter number 3")
+print( "number 1 is:", number_1 )
+print( "number 2 is:", number_2 )
+print("number 3 is:", number_3 )
+# delta calculation
+delta= ((number 2 * number 2 )+ (4* number 1* number 3))
+print ("delta is", delta)
+# factor calculation
+factor= delta**(1/2)
+print("factor is", factor)
+print ("x is",-(number_2)+(factor/4*number_1))
+print("y is",-number_2+factor/4*number_1)
+print()
+
+

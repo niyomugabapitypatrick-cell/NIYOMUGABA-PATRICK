@@ -1,0 +1,11 @@
+list = [120, 150, 90, 200, 170]
+subset_array = list ('i', [120, 150, 90])  # small subset
+array_sum = sum(subset_array)
+list_sum = sum([120, 150, 90])
+
+print("=== Arrays ===")
+print("Array contents:", subset_array)
+print("Sum of array:", array_sum)
+print("Sum of list:", list_sum)
+print("Comparison (same?):", array_sum == list_sum)
+print()

@@ -1,0 +1,15 @@
+materials = ["Plastic", "Glass", "Metal", "Paper"]
+print("=== Lists ===")
+print("Original list:", materials)
+
+# Add a new element
+materials.append("Electronics")
+
+# Remove one element if condition met
+if "Glass" in materials:
+    materials.remove("Glass")
+
+# Sort list
+materials.sort()
+print("Modified list:", materials)
+print()

@@ -1,0 +1,11 @@
+# Quantities collected per day (kg)
+daily_intake = [120, 150, 90, 200, 170]
+total = 730
+average = 146
+report = (
+    f"Recycling Center Report:\n"
+    f"Total collected = {total} kg\n"
+    f"Average per day = {average:.2f} kg\n"
+)
+print("=== Strings ===")
+print(report)
